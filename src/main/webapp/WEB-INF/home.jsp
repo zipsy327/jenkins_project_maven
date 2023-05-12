@@ -31,6 +31,7 @@
 		<option value="ja">일어</option>
 		<option value="zh-CN">중국어</option>
 		<option value="es">스페인어</option>
+		<option value="ko">한국어</option>
 		<option value="de">독일어</option>		
 	</select>
 	<button type="button" id="btntrans" class="btn btn-outline-danger" >번역하기</button>

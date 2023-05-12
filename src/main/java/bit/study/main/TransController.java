@@ -27,8 +27,8 @@ public class TransController {
 			con.setRequestMethod("POST");
 			con.setRequestProperty("X-NCP-APIGW-API-KEY-ID", clientId);
 			con.setRequestProperty("X-NCP-APIGW-API-KEY", clientSecret);
-			// post request
-			String postParams = "source=ko&target="+lang+"&text=" + text;
+			// post request- auto :source언어 자동인식
+			String postParams = "source=auto&target="+lang+"&text=" + text;
 			con.setDoOutput(true);
 			DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 			wr.writeBytes(postParams);
