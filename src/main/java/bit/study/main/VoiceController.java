@@ -36,7 +36,7 @@ public class VoiceController {
 			//목소리르 저장할 변수
 			String naraVoice="";
 			if(lang.equals("ko"))//한국어
-				naraVoice="nminyoung";
+				naraVoice="nmammon";
 			else if(lang.equals("en"))//영어
 				naraVoice="djoey";
 			else if(lang.equals("ja"))//일본어
