@@ -22,6 +22,7 @@
 <body>
 <h2><b>Jenkins 에 Maven Project 배포 연습</b></h2>
 <h5>젠킨스에 배포 모두 성공했나요? 참 쉽~~~죠잉!!!! 자동빌드 테스트</h5>
+<h6>입력 언어는 자동인식되니 영어,일어,한국어등등 모두 가능합니다</h6>
 <div>
 	<textarea style="width: 100%;height: 120px;" class="form-control" id="msg">프로젝트 진행 잘되가고 있어요?</textarea>
 </div>
