@@ -20,5 +20,6 @@
 </head>
 <body>
 <h2><b>Jenkins 에 Maven Project 배포 연습</b></h2>
+<h5>젠킨스에 배포 모두 성공했나요? 참 쉽~~~죠잉!!!!</h5>
 </body>
 </html>
